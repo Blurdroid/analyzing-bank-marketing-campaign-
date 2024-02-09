@@ -8,16 +8,16 @@ modeling being the process of using data patterns to predict future outcomes). T
 types of models have several advantages, but two of the most important ones are
 their simplicity and interpretability.
 
-# first : plot the distribution of numerical and categorical columns and number of entries in y column 
+# plot the distribution of numerical and categorical columns and number of entries in y column 
 in the numercical columsn the age and duration are seem a regular distrivution and the rest of columns are not since seem scattered and only few values are present 
 we can derive that only 11% of the contacted customers
 decided to accept the offer from the bank.
 
-# third : run a hypothesis test in which we will test whether the average value of the respective numerical feature is different for "yes" entries for the y column against "no" entries for each numerical feature.
+# run a hypothesis test in which we will test whether the average value of the respective numerical feature is different for "yes" entries for the y column against "no" entries for each numerical feature.
 there is a statistically significant difference in
 the mean values for each of the numerical columns
 
-# fourth : kolomogorov smirnov
+# kolomogorov smirnov
 he distributions of the various numerical features present a significant difference between successful and
 unsuccessful marketing campaigns.
 # fifth: split two groups [campaign and finance]
@@ -31,7 +31,7 @@ unsuccessful ones. The inverse situation happens when interest rates are higher.
 possible explanation for this phenomenon is customer optimism when interest rates
 are lower.
 
-# sixth: correlation between differnent numerical features with successfull and unseccusfull
+# correlation between differnent numerical features with successfull and unseccusfull
 
 we can observe from the preceding two figures, the correlation between
 euribor3m and emp.var.rate is very high (approximately 0.93 for successful and
@@ -40,10 +40,10 @@ relates to the average interest rate at which European banks lend money to other
 banks with a maturity of 3 months, while the second one relates to the employment
 variation, that is, the rate at which people are hired or fired in an economy.
 
-# eighth: what is the CPI ?
+# what is the CPI ?
 a measure of the average change overtime in the prices paid by urban consumers for a market basket of consumer goods and services.
 
-# ningth : correlation differnce between numerical features with successfull and unsuccesffull
+# correlation differnce between numerical features with successfull and unsuccesffull
 
 you can see the difference between the correlation matrices,
 one for successful calls and one for unsuccessful calls. The values indicated in the
